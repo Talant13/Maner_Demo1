@@ -134,15 +134,12 @@ img{
     bottom: -70px;
     transform: skewY(-3deg);
     background-color: #fff;
-    z-index: 0;
 }
 /* stats */
 .stats{
     padding-top: 100px;
 }
-i{
-    z-index: 1;
-}
+
 
 /* 
 Utilities
