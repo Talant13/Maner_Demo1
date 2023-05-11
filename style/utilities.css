@@ -50,9 +50,21 @@
     gap:20px;
     justify-content: center;
     align-items: center;
+
 }
 
 
 .grid-3{
     grid-template-columns: repeat(3,1fr);
+}
+
+.cli .grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* Cli and grid direct children */
+.cli .grid > *:first-child{ 
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
 }
