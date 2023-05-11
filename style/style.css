@@ -45,7 +45,11 @@ p{
     margin: 10px 0;
 }
 
-img{
+.cli img{
+    width: 100%;
+}
+
+.cloud img{
     width: 100%;
 }
 
@@ -136,9 +140,23 @@ img{
     background-color: #fff;
 }
 /* stats */
-.stats{
+.stats .container{
     padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.stat__heading_wrap{
+    text-align: center;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
 
 
 /* Animation */

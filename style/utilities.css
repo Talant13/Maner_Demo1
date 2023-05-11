@@ -55,10 +55,26 @@
 
 
 .grid-3{
+    width: 100%;
+    margin-top: 50px;
     grid-template-columns: repeat(3,1fr);
 }
 
+.stats__text_main h1{
+    font-size: 2.4em;
+    font-weight: 600;
+}
+
+.stats__text_main p{
+    font-size: 1.3em;
+    font-weight: 600;
+    
+}
+
+
+
 .cli .grid{
+    margin-top: 50px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
@@ -91,4 +107,49 @@ section.cloud{
 
 .mt-20{
     margin-top: 20px;
+}
+
+.lang{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.lang h2{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.lang .grid{
+    grid-template-columns: repeat(7,1fr);
+    /* grid-template-rows: repeat(1,1fr); */
+}
+
+.lang .card{
+    text-align: center;
+    margin: 18px 5px 40px;
+    transition: 0.3s ease-in;
+    width: 100%;
+}
+
+.lang .card:hover {
+    transform: translateY(-15px);
+    }
+
+
+.footer{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.footer .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer__navbar a{
+    color:#fff
+}
+
+.footer__sm i{
+    color: #fff;
+    margin-right: 15px;
 }
